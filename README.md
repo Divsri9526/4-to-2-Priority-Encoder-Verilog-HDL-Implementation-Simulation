@@ -38,11 +38,13 @@ A priority encoder assigns priority to inputs so that if multiple inputs are hig
 
 ## 📊 Expected Output
 
-Time=0  | in=0000 | out=00 | valid=0
-Time=10 | in=0001 | out=00 | valid=1
-Time=20 | in=0010 | out=01 | valid=1
-Time=30 | in=0011 | out=01 | valid=1
-Time=40 | in=0100 | out=10 | valid=1
-Time=50 | in=0110 | out=10 | valid=1
-Time=60 | in=1000 | out=11 | valid=1
-Time=70 | in=1011 | out=11 | valid=1
+| in   | out | valid |
+|------|-----|-------|
+| 0000 | 00  | 0     |
+| 0001 | 00  | 1     |
+| 0010 | 01  | 1     |
+| 0011 | 01  | 1     |
+| 0100 | 10  | 1     |
+| 0110 | 10  | 1     |
+| 1000 | 11  | 1     |
+| 1011 | 11  | 1     |
